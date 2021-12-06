@@ -10,6 +10,7 @@ import Programmers from './components/Programmers';
 
 render(
   <>
+  {/** react fragment wraps around multiple things in one return*/}
     <Counter />
     <Moods />
     <Spinner />
